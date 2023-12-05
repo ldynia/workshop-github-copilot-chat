@@ -19,7 +19,7 @@ RUN chown $USER:$GROUP $WORKDIR
 COPY --chown=$USER:$GROUP app/ $WORKDIR
 
 # Install OS packages
-RUN apk add vim
+RUN apk add --no-cache curl
 
 # Install python packages
 RUN pip install --upgrade pip --requirement requirements.txt
@@ -29,6 +29,9 @@ EXPOSE $PORT
 
 # Run rootless
 USER $USER:$GROUP
+
+# Healthcheck
+HEALTHCHECK --retries=3 --interval=10s --timeout=1s CMD curl --fail http://localhost:$PORT/livez || exit 1
 
 # Start app
 CMD flask run --host=$HOST --port=$PORT

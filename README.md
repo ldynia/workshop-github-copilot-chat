@@ -1,7 +1,9 @@
-# workshop-github-copilot-chat
+# Workshop Github Copilot Chat
 
-# Copilot Chat
+1. [Copilot](./cli/README.md)
+2. [Copilot Chat](./chat/README.md)
+3. [Copilot CLI](./chat/README.md)
 
-# Unit Testing
+# Links
 
-`@workspace  /tests with pytest only location src/sherlock/app`
+https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
