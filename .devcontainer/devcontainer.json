@@ -1,5 +1,5 @@
 ﻿{
-  "name": "Python 3.11",
+  "name": "Copilot Chat",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "hostRequirements": {
     "cpus": 2,
@@ -23,7 +23,6 @@
         "GitHub.copilot-chat",
         "GitHub.copilot-labs",
         "GitHub.copilot",
-        "GitHub.heygithub",
         "ms-python.python",
         "ms-python.vscode-pylance",
         "redhat.vscode-yaml"
