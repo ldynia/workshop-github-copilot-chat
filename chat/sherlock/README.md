@@ -5,9 +5,9 @@ Boilerplate for a Flask application.
 ## Local Installation
 
 ```shell
-pip install -r requirements.txt
+pip install -r app/requirements.txt
 
-export FLASK_APP=$PWD/run.py
+export FLASK_APP=$PWD/app/run.py
 
 flask run --host 0.0.0.0 --port 8080
 ```
@@ -34,13 +34,13 @@ curl "http://localhost/api/v1/movies/recommend?title=Lost%20in%20Translation"
 Unit test
 
 ```shell
-docker exec flask-app pytest
-docker exec flask-app coverage run -m pytest
-docker exec flask-app coverage report
+docker exec sherlock pytest
+docker exec sherlock coverage run -m pytest
+docker exec sherlock coverage report
 ```
 
 Stop container
 
 ```shell
-docker stop flask-sherlock
+docker stop sherlock
 ```

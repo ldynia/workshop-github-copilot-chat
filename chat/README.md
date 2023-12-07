@@ -1,22 +1,65 @@
-# Workshop Github Copilot Chat
+# Copilot Chat
 
-https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
+Remember to **DISCONNECT VPN**.
 
-## Unit Testing
+## Agents and Commands
 
-Write unit test for flask init app.
+* `@workspace` - Ask about your workspace
+	* `/explain` - Explain how the selected code works
+	* `/tests`- Generate unit tests for the selected code
+	* `/fix`- Propose a fix for the problems in the selected code
+	* `/new`- Scaffold code for a new workspace
+	* `/newNotebook` - Create a new Jupyter Notebook
+* `@vscode` - Ask about VS Code
+	* `/search` - Generate query parameters for workspace search
+	* `/api` - Ask about VS Code extension development
+* `@terminal` - Ask how to do something in the terminal
+* `/help` - General help about GitHub Copilot.
+* `/clear` - Clear the session.
+
+## flask-init
+
+Write unit test for flask app test `run.py`.
 
 ```
 @workspace /tests only with pytest module.
 ```
 
-### Secure Dockerfile
+Make `Dockerfile` secure. **Select all**.
+
+```shell
+Expose port.
+Expose port but use variable syntax.
+Secure this.
+Make Dockerfile rootless.
+Secure Dockerfile with nobody and nogroup user.
+Explaing user and group id ranges in Linux. Show it as a table.
+Implement Dockerfile application HEALTHCHECK with default intervals.
+Remove cache after add.
+```
+
+## sherlock
+
+Run prompts against `rengine.py` file
 
 ```
-Expose port in Dockerfile.
-Expose port in Dockerfile but use variable syntax.
-Secure Dockerfile.
-Make Dockerfile rootless.
-Secure Dockerfile with nobody and nogroup user
-Implement application HEALTHCHECK in Dockerfile with default intervals.
+Propose a better variables name
+Refactor
+Add pep8 docs string
+Use Python annotations to document methods
 ```
+
+Run prompts against `run.py` file
+
+```
+@workspace /tests endpoints in recommend and alive methods
+Does the selected code violates SOLID principle from OO programming?
+Refactor
+Implement a decorator to handle errors
+Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
+```
+
+## Links
+
+- https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
+- https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022

@@ -1,6 +1,6 @@
 ﻿{
   "name": "Copilot Chat",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "hostRequirements": {
     "cpus": 2,
     "memory": "4gb",
@@ -9,7 +9,9 @@
   "features": {
     "ghcr.io/devcontainers-contrib/features/black:2": {"version": "latest"},
     "ghcr.io/devcontainers-contrib/features/pylint:2": {"version": "latest"},
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {"version": "latest"}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {"version": "latest"},
+    "ghcr.io/devcontainers/features/node:1": {"version": "latest"},
+    "ghcr.io/devcontainers/features/python:1": {"version": "latest"}
   },
   "customizations": {
     "codespaces": {

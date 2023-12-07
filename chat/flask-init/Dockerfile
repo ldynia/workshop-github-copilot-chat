@@ -13,6 +13,7 @@ WORKDIR $WORKDIR
 COPY app/ $WORKDIR
 
 RUN apk add --no-cache curl
+
 RUN pip install --upgrade pip --requirement requirements.txt
 
 CMD flask run --host=$HOST --port=$PORT

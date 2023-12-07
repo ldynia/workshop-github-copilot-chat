@@ -31,7 +31,7 @@ EXPOSE $PORT
 USER $USER:$GROUP
 
 # Healthcheck
-HEALTHCHECK --retries=3 --interval=10s --timeout=1s CMD curl --fail http://localhost:$PORT/livez || exit 1
+HEALTHCHECK --retries=3 --interval=10s --timeout=1s CMD curl --fail http://$HOST:$PORT/livez || exit 1
 
 # Start app
 CMD flask run --host=$HOST --port=$PORT
