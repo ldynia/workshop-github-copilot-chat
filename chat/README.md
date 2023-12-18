@@ -58,14 +58,22 @@ Implement a decorator to handle errors
 Run prompts against `rengine.py` file
 
 ```
+# Select all
 Propose a better variables name
-Refactor
+
+# Select all
+Refactor this code to more generic implementation
+
 Add pep8 docs string
-Use Python annotations to document methods
+
+Use Python annotations to document methods in this code
+
 Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
 ```
 
 ## Links
 
+- https://www.desmos.com/calculator/xpfyjl1lbn
+- https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/
 - https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
 - https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022
