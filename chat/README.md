@@ -57,7 +57,7 @@ Run prompts against `run.py` file
 
 Does this code violates SOLID principles?
 
-Refactor
+Refactor this code
 
 Implement a decorator to handle errors
 Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
