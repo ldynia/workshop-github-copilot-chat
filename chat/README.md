@@ -52,7 +52,9 @@ Use Python annotations to document methods
 Run prompts against `run.py` file
 
 ```
-@workspace /tests endpoints in recommend and alive methods
+#  Select recommend and alive functions
+@workspace /tests this
+
 Does the selected code violates SOLID principle from OO programming?
 Refactor
 Implement a decorator to handle errors
