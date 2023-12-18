@@ -39,6 +39,20 @@ Remove cache after add.
 ```
 
 ## sherlock
+Run prompts against `run.py` file.
+
+```
+# Select recommend and alive functions
+@workspace /tests this
+
+Does this code violates SOLID principles?
+
+# Select recommend and alive functions
+Refactor this code
+
+# Select recommend functions
+Implement a decorator to handle errors
+```
 
 Run prompts against `rengine.py` file
 
@@ -47,19 +61,6 @@ Propose a better variables name
 Refactor
 Add pep8 docs string
 Use Python annotations to document methods
-```
-
-Run prompts against `run.py` file
-
-```
-# Select recommend and alive functions
-@workspace /tests this
-
-Does this code violates SOLID principles?
-
-Refactor this code
-
-Implement a decorator to handle errors
 Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
 ```
 
