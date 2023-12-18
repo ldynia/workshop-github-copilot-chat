@@ -55,8 +55,10 @@ Run prompts against `run.py` file
 # Select recommend and alive functions
 @workspace /tests this
 
-Does this code violates SOLID principle from OO programming?
+Does this code violates SOLID principles?
+
 Refactor
+
 Implement a decorator to handle errors
 Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
 ```
