@@ -52,10 +52,10 @@ Use Python annotations to document methods
 Run prompts against `run.py` file
 
 ```
-#  Select recommend and alive functions
+# Select recommend and alive functions
 @workspace /tests this
 
-Does the selected code violates SOLID principle from OO programming?
+Does this code violates SOLID principle from OO programming?
 Refactor
 Implement a decorator to handle errors
 Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
