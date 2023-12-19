@@ -53,8 +53,8 @@ Run prompts against `run.py` file.
 # Select whole file
 Does this code violates SOLID principles?
 
-# Select recommend and alive functions
-Refactor this code
+# Select recommended and alive functions
+Refactor
 
 # Select recommend functions
 Implement a decorator to handle errors
