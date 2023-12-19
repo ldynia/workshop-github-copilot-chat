@@ -48,7 +48,7 @@ Run prompts against `run.py` file.
 
 ```
 # Select recommend and alive functions
-@workspace /tests this
+@workspace /tests
 
 # Select whole file
 Does this code violates SOLID principles?
