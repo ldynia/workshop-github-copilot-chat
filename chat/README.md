@@ -39,6 +39,11 @@ Remove cache after add.
 ```
 
 ## sherlock
+
+```
+@workspace what is sherlock project?
+```
+
 Run prompts against `run.py` file.
 
 ```
