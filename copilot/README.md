@@ -27,7 +27,7 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 
 ```python
 # Implement Fibonacci sequence.
-# Implement Fibonacci sequence for negative numbers. 
+# Implement Fibonacci sequence for negative numbers.
 ```
 `python fibonacci-v2.py`
 
@@ -55,4 +55,12 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 # q: What KISS stands for?
 # q: What ACID acronym stands fror in programming?
 # q: Explain Atomicity in ACID.
+# q: Will Donald Trump win elections?
 ```
+
+## Elections
+
+<details>
+  <summary>The answare</summary>
+  ![elections](./docs/assets/elections.png)
+</details>
