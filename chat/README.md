@@ -52,6 +52,8 @@ Implement Dockerfile application HEALTHCHECK with default intervals
 
 ## sherlock
 
+GOto `cd chat/sherlock` directory.
+
 ```
 @workspace what is sherlock project?
 ```
