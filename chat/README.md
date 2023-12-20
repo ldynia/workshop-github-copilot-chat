@@ -19,8 +19,9 @@ Remember to **DISCONNECT VPN**.
 
 ## flask-init
 
+Goto `cd chat/flask-init` directory.
+
 ```
-# cd chat/flask-init
 @workspace  how to install flask-init app?
 ```
 
