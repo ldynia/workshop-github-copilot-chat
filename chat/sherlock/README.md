@@ -1,6 +1,6 @@
 # Flask Init
 
-Boilerplate for a Flask application.
+A movie recommendation engine exposed via REST API written in Flask.
 
 ## Local Installation
 
