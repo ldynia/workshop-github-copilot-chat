@@ -19,6 +19,11 @@ Remember to **DISCONNECT VPN**.
 
 ## flask-init
 
+```
+# cd chat/flask-init
+@workspace  how to install flask-init app?
+```
+
 Write unit test for flask app test `run.py`.
 
 ```
