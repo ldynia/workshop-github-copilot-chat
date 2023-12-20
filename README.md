@@ -20,7 +20,7 @@ Remember to **DISCONNECT VPN**.
 | `alt+/` | Show suggestions |
 | `alt+[` | Show previous suggestions |
 | `alt+]` | Show next suggestions |
-| `ctrl+alt+i` | Chat |
+| `ctrl+alt+i`, `ctrl+shift+c` | Chat |
 | `ctrl+i` | Chat inline |
 | `ctrl+l` | Clear the session |
 | `ctrl+enter` | Insert into code |
