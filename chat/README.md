@@ -47,7 +47,7 @@ Explaing user and group id ranges in Linux. Show results as a table
 Remove application chache an cache dir
 
 # HEALTHCHECK
-Implement Dockerfile application HEALTHCHECK with default intervals
+Implement application HEALTHCHECK with default intervals
 ```
 
 ## sherlock
