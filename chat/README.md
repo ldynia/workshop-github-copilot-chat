@@ -61,11 +61,11 @@ Go to `cd chat/sherlock` directory and run the application.
 Open `run.py` file.
 
 ```
-# Select recommend and alive functions
-@workspace /tests
-
 # Select whole file
 Does this code violates SOLID principles?
+
+# Select recommend and alive functions
+@workspace /tests
 
 # Select recommended and alive functions
 Refactor
