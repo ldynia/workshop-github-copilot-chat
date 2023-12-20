@@ -19,7 +19,7 @@ Remember to **DISCONNECT VPN**.
 
 ## flask-init
 
-Go to `cd chat/flask-init` directory.
+Go to `cd chat/flask-init` directory and run the application.
 
 ```
 @workspace how to install flask-init app?
@@ -52,7 +52,7 @@ Implement application HEALTHCHECK with default intervals
 
 ## sherlock
 
-Go to `cd chat/sherlock` directory.
+Go to `cd chat/sherlock` directory and run the application.
 
 ```
 @workspace what is sherlock project?
