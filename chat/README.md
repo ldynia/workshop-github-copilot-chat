@@ -34,14 +34,20 @@ Write unit test for flask app test `run.py`.
 Make `Dockerfile` secure. **Select all**.
 
 ```shell
-Expose port.
-Expose port but use variable syntax.
-Secure this.
-Make Dockerfile rootless.
-Secure Dockerfile with nobody and nogroup user.
-Explaing user and group id ranges in Linux. Show it as a table.
-Implement Dockerfile application HEALTHCHECK with default intervals.
-Remove cache after add.
+# Ports
+Expose port
+Expose port but use variable syntax
+
+# Rootless
+Make Dockerfile rootless
+Secure Dockerfile with nobody and nogroup user
+Explaing user and group id ranges in Linux. Show results as a table
+
+# Select RUN apk add curl
+Remove application chache an cache dir
+
+# HEALTHCHECK
+Implement Dockerfile application HEALTHCHECK with default intervals
 ```
 
 ## sherlock
