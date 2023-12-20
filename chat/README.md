@@ -25,13 +25,13 @@ Go to `cd chat/flask-init` directory.
 @workspace how to install flask-init app?
 ```
 
-Write unit test for flask app test `run.py`.
+Open `run.py` file.
 
 ```
 @workspace /tests only with pytest module.
 ```
 
-Make `Dockerfile` secure. **Select all**.
+Open `Dockerfile` file.
 
 ```shell
 # Ports
@@ -58,7 +58,7 @@ Go to `cd chat/sherlock` directory.
 @workspace what is sherlock project?
 ```
 
-Run prompts against `run.py` file.
+Open `run.py` file.
 
 ```
 # Select recommend and alive functions
@@ -74,7 +74,7 @@ Refactor
 Implement a decorator to handle errors
 ```
 
-Run prompts against `rengine.py` file
+Open `rengine.py` file.
 
 ```
 # Select all
