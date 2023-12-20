@@ -22,7 +22,7 @@ Remember to **DISCONNECT VPN**.
 Goto `cd chat/flask-init` directory.
 
 ```
-@workspace  how to install flask-init app?
+@workspace how to install flask-init app?
 ```
 
 Write unit test for flask app test `run.py`.
