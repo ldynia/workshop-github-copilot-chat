@@ -60,10 +60,10 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 ## Elections
 
 ```python
-# q: Will Donald Trump win elections?
+# q: Will Donald Trump win the elections?
 ````
 
 <details>
   <summary>The answare</summary>
-  ![elections](../docs/assets/elections.png)
+  <img src="../docs/assets/elections.png"></img>
 </details>
