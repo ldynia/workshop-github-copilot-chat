@@ -27,8 +27,16 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 
 ```python
 # Implement Fibonacci sequence.
-# Implement Fibonacci sequence for negative numbers.
+# Implement Fibonacci sequence for negative numbers. 
 ```
+`python fibonacci-v2.py`
+
+```python
+# Implement Fibonacci sequence for negative numbers by yourself!
+
+# Implement Fibonacci sequence for negative numbers with Copilot!
+```
+
 
 [the negative fibonacci sequence](https://medium.com/@westgarth.w/the-negative-fibonacci-sequence-f7139f78c2a0)
 
