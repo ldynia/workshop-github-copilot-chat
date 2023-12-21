@@ -55,6 +55,7 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 # q: What KISS stands for?
 # q: What ACID acronym stands fror in programming?
 # q: Explain Atomicity in ACID.
+# q: Will Donald Trump win elections?
 ```
 
 ## Elections
