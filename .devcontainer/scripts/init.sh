@@ -17,9 +17,12 @@ sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
   pcregrep \
   tmux
 
-# Install gh extention Copilot CLI
-gh extension install github/gh-copilot
-gh extension upgrade gh-copilot
+# This will work in gh's codespeces, not in local!
+if [ -n "${GITHUB_TOKEN}" ]; then
+  # Install gh extention Copilot CLI
+  gh extension install github/gh-copilot-
+  gh extension upgrade gh-copilot
+fi
 
 # Autocomplete
 source /usr/share/bash-completion/completions/git

@@ -1,9 +1,12 @@
 ﻿# Timing
 
-| min | part |
-|---|---|
-| 30 | presentation |
-| 30 | lab - copilot |
-| 30 | lab - CLI |
-| 30 | lab - CHAT |
-| 30 | lab - LABS |
+| min | lab | segment |
+|---|---| ---|
+| 30 | presentation | 1st hour |
+| 30 | COPILOT | 1st hour |
+| 15 | | break |
+| 20 | CLI | 2nd hour |
+| 25 | CHAT - flask-init | 2nd hour |
+| 10 | | break |
+| 40 | CHAT - sherlock | 3rd hour |
+| 10 | LABS | 3rd hour |

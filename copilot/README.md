@@ -58,8 +58,6 @@ touch app.js bitcoin.py fibonacci-v1.py fibonacci-v2.py questions.py regex.py
 # q: Will Donald Trump win elections?
 ```
 
-## Elections
-
 ```python
 # q: Will Donald Trump win the elections?
 ````

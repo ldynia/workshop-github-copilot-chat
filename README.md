@@ -2,6 +2,15 @@
 
 ![github](/docs/assets/github.jpg)
 
+## Installation Local
+
+```shell
+git clone https://github.com/ldynia/workshop-github-copilot-chat.git
+cd workshop-github-copilot-chat
+code .
+Ctrl + K Ctrl + O
+```
+
 ## Github Copilot X
 
 Remember to **DISCONNECT VPN**.
