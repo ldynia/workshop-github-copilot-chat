@@ -20,7 +20,7 @@ sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
 # This will work in gh's codespeces, not in local!
 if [[ -v GITHUB_TOKEN ]]; then
   # Install gh extention Copilot CLI
-  gh extension install github/gh-copilot-
+  gh extension install github/gh-copilot
   gh extension upgrade gh-copilot
 fi
 
