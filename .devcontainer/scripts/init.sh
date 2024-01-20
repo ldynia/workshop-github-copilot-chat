@@ -18,7 +18,7 @@ sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
   tmux
 
 # This will work in gh's codespeces, not in local!
-if [ -n "${GITHUB_TOKEN}" ]; then
+if [[ -v GITHUB_TOKEN ]]; then
   # Install gh extention Copilot CLI
   gh extension install github/gh-copilot-
   gh extension upgrade gh-copilot
