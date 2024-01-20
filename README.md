@@ -5,9 +5,9 @@
 ## Installation Local
 
 ```shell
+# mkdir -p ~/live/ && cd ~/live
 git clone https://github.com/ldynia/workshop-github-copilot-chat.git
-cd workshop-github-copilot-chat
-code .
+code workshop-github-copilot-chat/
 Ctrl + K Ctrl + O
 ```
 
@@ -15,9 +15,9 @@ Ctrl + K Ctrl + O
 
 Remember to **DISCONNECT VPN**.
 
-1. [Copilot](./copilot/README.md)
-1. [Copilot CLI](./cli/README.md)
-1. [Copilot Chat](./chat/README.md)
+1. [Copilot CLI](./cli/WORKSHOP.md)
+1. [Copilot](./copilot/WORKSHOP.md)
+1. [Copilot Chat](./chat/WORKSHOP.md)
 1. [~~Copilot Labs~~](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
 
 ## Copilot Shortcuts Linux
@@ -41,3 +41,23 @@ Remember to **DISCONNECT VPN**.
 - https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
 - https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
 - https://www.youtube.com/watch?v=SZVCJRUADc4
+
+
+## Workshop Setup
+
+Execut on your local machine.
+
+```shell
+mkdir -p ~/live/solution/sherlock ~/live/solution/copilot
+
+tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory ~/live/solution/sherlock
+tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory ~/live/solution/copilot
+
+cd ~/live/solution/
+ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat
+cd ..
+
+code ~/live/solution/
+code ~/live/solution/workshop-github-copilot-chat/
+# Ctrl + K Ctrl + O
+```

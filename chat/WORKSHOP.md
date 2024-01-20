@@ -17,23 +17,29 @@ Remember to **DISCONNECT VPN**.
 * `/help` - General help about GitHub Copilot.
 * `/clear` - Clear the session.
 
-## flask-init
+## sherlock
 
-Go to `cd chat/flask-init` directory and run the application.
-
-```
-@workspace how to install flask-init app?
-```
-
-Open `run.py` file.
+Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figure out how to work with the project.
 
 ```
+@workspace what is sherlock?
+@workspace how to install sherlock locally?
+@workspace how to install sherlock with docker?
+```
+
+Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
+
+```
+# Select recommend and alive functions
 @workspace /tests only with pytest module.
 ```
 
-Open `Dockerfile` file.
+Open [Dockerfile](sherlock/Dockerfile) file. **Objectives:** apply best practices to Dockerfile. Find difference between GPT gpt-3.5-turbo vs gpt-4
 
-```shell
+```
+# Select FROM instruction `Ctrl + I`
+What is the lates python image that I can use?
+
 # Ports
 Expose port
 Expose port but use variable syntax
@@ -50,22 +56,11 @@ Remove application chache an cache dir
 Implement application HEALTHCHECK with default intervals
 ```
 
-## sherlock
-
-Go to `cd chat/sherlock` directory and run the application.
-
-```
-@workspace what is sherlock project?
-```
-
-Open `run.py` file.
+Open [run.py](sherlock/app/run.py) file. **Objectives:** refactor application.
 
 ```
 # Select whole file
 Does this code violates SOLID principles?
-
-# Select recommend and alive functions
-@workspace /tests
 
 # Select recommended and alive functions
 Refactor
@@ -74,7 +69,7 @@ Refactor
 Implement a decorator to handle errors
 ```
 
-Open `rengine.py` file.
+Open [rengine.py](sherlock/app/rengine.py) file. **Objectives:** refactor application.
 
 ```
 # Select all

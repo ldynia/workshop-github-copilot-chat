@@ -23,6 +23,3 @@ if [[ -v GITHUB_TOKEN ]]; then
   gh extension install github/gh-copilot
   gh extension upgrade gh-copilot
 fi
-
-# Autocomplete
-source /usr/share/bash-completion/completions/git

@@ -30,6 +30,11 @@ def read_data(source):
     return data, errors
 
 
+@app.route("/livez", methods=["GET"])
+def alive():
+    return jsonify({"ping": "ok"}), 200
+
+
 @app.route("/api/v1/movies/recommend", methods=["GET"])
 def recommend():
     MOVIES, errors = read_data(f"{APP_DIR}/db.json")
@@ -40,8 +45,3 @@ def recommend():
     recommendation = sherlock.recommend()
 
     return jsonify(recommendation)
-
-
-@app.route("/livez", methods=["GET"])
-def alive():
-    return jsonify({"ping": "ok"}), 200

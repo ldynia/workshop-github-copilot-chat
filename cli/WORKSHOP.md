@@ -10,6 +10,7 @@ gh auth login
 
 bash .devcontainer/scripts/init.sh
 
+gh copilot --version
 gh copilot
 ```
 
@@ -22,10 +23,6 @@ gh copilot suggest "grep for # in md files"
 gh copilot suggest "remove all files with pyc and pyo extension"
 @terminal remove all files with pyc and pyo extension
 
-# You can skip this one
-gh copilot suggest "delete all python __pycache__ dir"
-@terminal suggest "delete all python __pycache__ dir"
-
 gh copilot suggest "list free memory in GiB and list file system utilization"
 @terminal "list free memory in GiB and list file system utilization"
 
@@ -35,8 +32,8 @@ gh copilot suggest "make POST request with json body"
 gh copilot suggest "Rename all folders in current directory to lower case"
 @terminal Rename all folders in current directory to lower case
 
-gh copilot suggest "Install rename in ubuntu"
-@terminal Install rename in ubuntu
+gh copilot suggest "Install rename package in ubuntu"
+@terminal Install rename package in ubuntu
 
 gh copilot suggest "GET weather in CPH now"
 @terminal GET weather in CPH now
