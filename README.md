@@ -18,7 +18,7 @@ Remember to **DISCONNECT VPN**.
 1. [Copilot](./copilot/README.md)
 1. [Copilot CLI](./cli/README.md)
 1. [Copilot Chat](./chat/README.md)
-1. [Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
+1. [~~Copilot Labs~~](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
 
 ## Copilot Shortcuts Linux
 
