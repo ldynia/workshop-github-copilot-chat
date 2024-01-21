@@ -21,6 +21,7 @@ touch \
 
 ```javascript
 // Inform user every 1 second that he is awesome. Use ES5 syntax.
+// Inform user every 1 second that he is awesome. Use ES5 syntax. Run programm 5 times.
 ```
 
 `python regex.py`
