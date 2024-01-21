@@ -5,9 +5,13 @@
 ## Installation Local
 
 ```shell
+# Ignore this. Workshop setup only!
 # mkdir -p ~/live/ && cd ~/live
+
 git clone https://github.com/ldynia/workshop-github-copilot-chat.git
 code workshop-github-copilot-chat/
+
+# Rebuild Container
 Ctrl + K Ctrl + O
 ```
 

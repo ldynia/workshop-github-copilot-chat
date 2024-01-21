@@ -27,6 +27,11 @@ Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figu
 @workspace how to install sherlock with docker?
 ```
 
+Visit the following URLs: Run locally
+
+- http://localhost:8080/livez
+- http://localhost:8080/api/v1/recommend/movie
+
 Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
 
 ```
@@ -87,7 +92,7 @@ Comment every line in the recommend method with time complexity. Estimate the to
 
 ## Links
 
-- https://www.desmos.com/calculator/xpfyjl1lbn
-- https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/
-- https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
-- https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022
+- [Time Complexity](https://www.desmos.com/calculator/xpfyjl1lbn)
+- [Intro Time Complexity](https://victoria.dev/blog/a-coffee-break-introduction-to-time-complexity-of-algorithms/)
+- [GitHub Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode)
+- [GitHub Copilot Chat](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022)
