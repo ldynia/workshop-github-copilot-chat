@@ -53,11 +53,9 @@ mkdir -p ~/live/solution/sherlock ~/live/solution/copilot
 tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory ~/live/solution/sherlock
 tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory ~/live/solution/copilot
 
-cd ~/live/solution/
-ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat
-cd ..
+cd ~/live/solution/ \
+  && ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat \
+  cd ..
 
 code ~/live/solution/
-code ~/live/solution/workshop-github-copilot-chat/
-# Ctrl + K Ctrl + O
 ```
