@@ -4,6 +4,9 @@
 
 ## Installation Local
 
+1. GitHub Copilot is not free it costs [$10](https://github.com/features/copilot/plans#pricing) for individuals.
+1. DISCONNECT VPN - GitHub Copilot doesn't work with VPN.
+
 ```shell
 # Ignore this. Workshop setup only!
 # mkdir -p ~/live/ && cd ~/live
@@ -16,8 +19,6 @@ Ctrl + K Ctrl + O
 ```
 
 ## Github Copilot X
-
-Remember to **DISCONNECT VPN**.
 
 1. [Copilot CLI](./cli/WORKSHOP.md)
 1. [Copilot](./copilot/WORKSHOP.md)
