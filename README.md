@@ -20,9 +20,9 @@ Ctrl + K Ctrl + O
 
 ## Github Copilot X
 
-1. [Copilot CLI](./cli/WORKSHOP.md)
 1. [Copilot](./copilot/WORKSHOP.md)
 1. [Copilot Chat](./chat/WORKSHOP.md)
+1. [Copilot CLI](./cli/WORKSHOP.md)
 1. [~~Copilot Labs~~](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
 
 ## Copilot Shortcuts Linux
