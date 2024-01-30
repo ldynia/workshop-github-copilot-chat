@@ -29,8 +29,8 @@ gh copilot suggest "list free memory in GiB and list file system utilization"
 gh copilot suggest "make POST request with json body"
 @terminal "make POST request with json body"
 
-gh copilot suggest "Rename all folders in current directory to lower case"
-@terminal Rename all folders in current directory to lower case
+gh copilot suggest "Rename all folders in the current directory to lower case"
+@terminal Rename all folders in the current directory to lowercase
 
 gh copilot suggest "Install rename package in ubuntu"
 @terminal Install rename package in ubuntu
