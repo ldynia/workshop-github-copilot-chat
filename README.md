@@ -4,7 +4,7 @@
 
 ## Installation Local
 
-1. GitHub Copilot is not free it costs [$10](https://github.com/features/copilot/plans#pricing) per month for individuals.
+1. GitHub Copilot is not free. It costs [$10](https://github.com/features/copilot/plans#pricing) per month for individuals.
 1. DISCONNECT VPN - GitHub Copilot doesn't work with VPN.
 
 ```shell
@@ -50,7 +50,7 @@ Ctrl + K Ctrl + O
 
 ## Workshop Setup
 
-Execut on your local machine.
+Execute on your local machine.
 
 ```shell
 mkdir -p ~/live/solution/sherlock ~/live/solution/copilot
