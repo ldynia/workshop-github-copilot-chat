@@ -35,15 +35,15 @@ Visit the following URLs: Run locally
 Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
 
 ```
-# Select recommend and alive functions
+# Select recommended and alive functions
 @workspace /tests only with pytest module.
 ```
 
-Open [Dockerfile](sherlock/Dockerfile) file. **Objectives:** apply best practices to Dockerfile. Find difference between GPT gpt-3.5-turbo vs gpt-4
+Open [Dockerfile](sherlock/Dockerfile) file. **Objectives:** apply best practices to Dockerfile. Find the difference between GPT gpt-3.5-turbo vs gpt-4
 
 ```
 # Select FROM instruction `Ctrl + I`
-What is the lates python image that I can use?
+What is the latest Python image that I can use?
 
 # Ports
 Expose port
@@ -52,10 +52,10 @@ Expose port but use variable syntax
 # Rootless
 Make Dockerfile rootless
 Secure Dockerfile with nobody and nogroup user
-Explaing user and group id ranges in Linux. Show results as a table
+Explain user and group ID ranges in Linux. Show results as a table.
 
 # Select RUN apk add curl
-Remove application chache an cache dir
+Remove application cache an cache dir
 
 # HEALTHCHECK
 Implement application HEALTHCHECK with default intervals
@@ -64,13 +64,13 @@ Implement application HEALTHCHECK with default intervals
 Open [run.py](sherlock/app/run.py) file. **Objectives:** refactor application.
 
 ```
-# Select whole file
-Does this code violates SOLID principles?
+# Select the whole file
+Does this code violate SOLID principles?
 
 # Select recommended and alive functions
 Refactor
 
-# Select recommend functions
+# Select recommended functions
 Implement a decorator to handle errors
 ```
 
@@ -78,16 +78,16 @@ Open [rengine.py](sherlock/app/rengine.py) file. **Objectives:** refactor applic
 
 ```
 # Select all
-Propose a better variables name
+Propose better variable names
 
 # Select all
-Refactor this code to more generic implementation
+Refactor this code to a more generic implementation
 
 Add pep8 docs string
 
 Use Python annotations to document methods in this code
 
-Comment every line in the recommend method with time complexity. Estimate the total time complexity of the recommend method.
+Comment every line in the recommended method with time complexity. Estimate the total time complexity of the recommended method.
 ```
 
 ## Links
