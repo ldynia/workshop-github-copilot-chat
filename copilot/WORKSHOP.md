@@ -21,7 +21,7 @@ touch \
 
 ```javascript
 // Inform user every 1 second that he is awesome. Use ES5 syntax.
-// Inform user every 1 second that he is awesome. Use ES5 syntax. Run programm 5 times.
+// Inform user every 1 second that he is awesome. Use ES5 syntax. Run the programme 5 times.
 ```
 
 `python regex.py`
@@ -57,8 +57,8 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 `questions.py`
 
 ```python
-# q: What KISS stands for?
-# q: What ACID acronym stands fror in programming?
+# q: What KISS stand for?
+# q: What ACID acronym stands for in programming?
 # q: Explain Atomicity in ACID.
 ```
 
