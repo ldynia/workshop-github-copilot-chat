@@ -47,21 +47,15 @@ Ctrl + K Ctrl + O
 
 ## Workshop Setup
 
-Execute on your local machine.
-
 ```shell
-mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock
-cd ~/workshop/chat/
-
-git clone https://github.com/ldynia/workshop-github-copilot-chat.git
-code workshop-github-copilot-chat/
-
-tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock
-tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot
-
-cd solution/
-ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat
-cd ..
-
-code ~/workshop/chat/solution/
+{
+  mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock;
+  cd ~/workshop/chat/;
+  git clone https://github.com/ldynia/workshop-github-copilot-chat.git;
+  tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock;
+  tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot;
+  find ~/workshop/chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
+  code ~/workshop/chat/solution/;
+  code ~/workshop/chat/workshop-github-copilot-chat/;
+}
 ```
