@@ -8,9 +8,6 @@
 1. DISCONNECT VPN - GitHub Copilot doesn't work with VPN.
 
 ```shell
-# Ignore this. Workshop setup only!
-# mkdir -p ~/live/ && cd ~/live
-
 git clone https://github.com/ldynia/workshop-github-copilot-chat.git
 code workshop-github-copilot-chat/
 
@@ -53,14 +50,18 @@ Ctrl + K Ctrl + O
 Execute on your local machine.
 
 ```shell
-mkdir -p ~/live/solution/sherlock ~/live/solution/copilot
+mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock
+cd ~/workshop/chat/
 
-tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory ~/live/solution/sherlock
-tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory ~/live/solution/copilot
+git clone https://github.com/ldynia/workshop-github-copilot-chat.git
+code workshop-github-copilot-chat/
 
-cd ~/live/solution/ \
-  && ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat \
-  cd ..
+tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock
+tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot
 
-code ~/live/solution/
+cd solution/
+ln -s ../workshop-github-copilot-chat/ workshop-github-copilot-chat
+cd ..
+
+code ~/workshop/chat/solution/
 ```
