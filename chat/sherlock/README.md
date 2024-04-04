@@ -1,4 +1,4 @@
-# Flask Init
+# Sherlock
 
 A movie recommendation engine exposed via REST API written in Flask.
 
