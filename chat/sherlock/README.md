@@ -6,9 +6,7 @@ A movie recommendation engine exposed via REST API written in Flask.
 
 ```shell
 pip install -r app/requirements.txt
-
 export FLASK_APP=$PWD/app/run.py
-
 flask run --host 0.0.0.0 --port 8080 --reload
 ```
 
