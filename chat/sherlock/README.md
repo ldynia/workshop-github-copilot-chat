@@ -24,7 +24,9 @@ docker ps
 ## API
 
 ```shell
+curl "http://localhost/"
 curl "http://localhost/livez"
+curl "http://localhost/api/v1/movies/recommend"
 curl "http://localhost/api/v1/movies/recommend?title=Kingpin"
 curl "http://localhost/api/v1/movies/recommend?title=Lost%20in%20Translation"
 ```
