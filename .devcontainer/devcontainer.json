@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "Copilot Chat",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "hostRequirements": {
@@ -23,11 +23,8 @@
       "extensions": [
         "DavidAnson.vscode-markdownlint",
         "GitHub.copilot-chat",
-        "GitHub.copilot-labs",
         "GitHub.copilot",
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "redhat.vscode-yaml"
+        "ms-python.python"
       ]
     }
   },
