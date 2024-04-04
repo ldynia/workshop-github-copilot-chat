@@ -4,6 +4,8 @@ A movie recommendation engine exposed via REST API written in Flask.
 
 ## Local Installation
 
+**TIP:** Remember to fix PYTHONPATH first.
+
 ```shell
 pip install -r app/requirements.txt
 export FLASK_APP=$PWD/app/run.py
