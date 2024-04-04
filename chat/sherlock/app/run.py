@@ -30,6 +30,11 @@ def read_data(source):
     return data, errors
 
 
+@app.route("/", methods=["GET"])
+def index():
+    return "Sherlock API '/api/v1/movies/recommend'", 200
+
+
 @app.route("/livez", methods=["GET"])
 def alive():
     return jsonify({"ping": "ok"}), 200
