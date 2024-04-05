@@ -49,12 +49,15 @@ Ctrl + K Ctrl + O
 
 ```shell
 {
-  mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock;
+  mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock ~/workshop/chat/solution/cli;
   cd ~/workshop/chat/;
   git clone https://github.com/ldynia/workshop-github-copilot-chat.git;
   tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock;
   tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot;
   find ~/workshop/chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
+  cp ~/workshop/chat/workshop-github-copilot-chat/chat/WORKSHOP.md / ~/workshop/chat/solution/sherlock;
+  cp ~/workshop/chat/workshop-github-copilot-chat/cli/WORKSHOP.md ~/workshop/chat/solution/cli;
+  cp ~/workshop/chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/workshop/chat/solution/copilot;
   code ~/workshop/chat/solution/;
   code ~/workshop/chat/workshop-github-copilot-chat/;
 }
