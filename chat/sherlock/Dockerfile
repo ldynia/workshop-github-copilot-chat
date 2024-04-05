@@ -14,6 +14,6 @@ COPY app/ $WORKDIR
 
 RUN apk add curl
 
-RUN pip install --upgrade pip --requirement requirements.txt
+RUN python -m pip install --upgrade pip --requirement requirements.txt
 
 CMD flask run --host=$HOST --port=$PORT
