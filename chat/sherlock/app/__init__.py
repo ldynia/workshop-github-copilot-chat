@@ -1,1 +1,1 @@
-# Add current directory to python path﻿
+# Add current directory to PYTHONPATH
