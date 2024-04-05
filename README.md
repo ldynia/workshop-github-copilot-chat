@@ -58,6 +58,10 @@ Ctrl + K Ctrl + O
   mv ~/workshop/chat/workshop-github-copilot-chat/chat/WORKSHOP.md ~/workshop/chat/solution/sherlock;
   mv workshop-github-copilot-chat/cli/ ~/workshop/chat/solution/;
   mv ~/workshop/chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/workshop/chat/solution/copilot;
+  touch workshop-github-copilot-chat/copilot/app.js;
+  touch workshop-github-copilot-chat/copilot/bitcoin.py;
+  touch workshop-github-copilot-chat/copilot/fibonacci-v1.py;
+  touch workshop-github-copilot-chat/copilot/regex.py;
   code ~/workshop/chat/solution/;
   code ~/workshop/chat/workshop-github-copilot-chat/;
 }
