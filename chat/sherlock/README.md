@@ -17,7 +17,7 @@ flask run --host 0.0.0.0 --port 8080 --reload
 ```shell
 # Building and running docker container
 docker build --tag flask-sherlock --build-arg FLASK_DEBUG=True .
-docker run --detach --name sherlock --publish 80:8080 --rm flask-sherlock
+docker run --detach --name sherlock --publish 8080:8080 --rm flask-sherlock
 docker ps
 ```
 
