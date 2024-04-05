@@ -23,14 +23,13 @@ Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figu
 
 ```
 @workspace what is sherlock?
-@workspace how to install sherlock locally?
-@workspace how to install sherlock with docker?
+@workspace how to run sherlock locally?
+@workspace how to run sherlock with docker?
 ```
 
 Visit the following URLs: Run locally
 
-- http://localhost:8080/livez
-- http://localhost:8080/api/v1/recommend/movie
+- http://localhost:8080/
 
 Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
 
