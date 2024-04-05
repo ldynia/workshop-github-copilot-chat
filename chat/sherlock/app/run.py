@@ -32,7 +32,7 @@ def read_data(source):
 
 @app.route("/", methods=["GET"])
 def index():
-    return "Sherlock API '/api/v1/movies/recommend'", 200
+    return render_template("index.html")
 
 
 @app.route("/livez", methods=["GET"])
