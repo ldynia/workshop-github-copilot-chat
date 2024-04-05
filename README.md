@@ -56,7 +56,7 @@ Ctrl + K Ctrl + O
   tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot;
   find ~/workshop/chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
   mv ~/workshop/chat/workshop-github-copilot-chat/chat/WORKSHOP.md ~/workshop/chat/solution/sherlock;
-  mv ~/workshop/chat/workshop-github-copilot-chat/cli/WORKSHOP.md ~/workshop/chat/solution/cli;
+  mv workshop-github-copilot-chat/cli/ ~/workshop/chat/solution/;
   mv ~/workshop/chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/workshop/chat/solution/copilot;
   code ~/workshop/chat/solution/;
   code ~/workshop/chat/workshop-github-copilot-chat/;
