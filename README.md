@@ -49,22 +49,23 @@ Ctrl + K Ctrl + O
 
 ```shell
 {
-  mkdir -p ~/workshop/chat/solution/copilot ~/workshop/chat/solution/sherlock ~/workshop/chat/solution/cli;
-  cd ~/workshop/chat/;
+  rm -rf ~/copilot_chat;
+  mkdir -p ~/copilot_chat/solution/copilot ~/copilot_chat/solution/sherlock ~/copilot_chat/solution/cli;
+  cd ~/copilot_chat/;
   git clone https://github.com/ldynia/workshop-github-copilot-chat.git;
   tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock;
   tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot;
-  find ~/workshop/chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
-  mv ~/workshop/chat/workshop-github-copilot-chat/chat/WORKSHOP.md ~/workshop/chat/solution/sherlock;
-  mv workshop-github-copilot-chat/cli/ ~/workshop/chat/solution/;
-  mv ~/workshop/chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/workshop/chat/solution/copilot;
-  rm -rf ~/workshop/chat/workshop-github-copilot-chat/README.md;
-  rm -rf ~/workshop/chat/workshop-github-copilot-chat/docs;
+  find ~/copilot_chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
+  mv ~/copilot_chat/workshop-github-copilot-chat/chat/WORKSHOP.md ~/copilot_chat/solution/sherlock;
+  mv workshop-github-copilot-chat/cli/ ~/copilot_chat/solution/;
+  mv ~/copilot_chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/copilot_chat/solution/copilot;
+  rm -rf ~/copilot_chat/workshop-github-copilot-chat/README.md;
+  rm -rf ~/copilot_chat/workshop-github-copilot-chat/docs;
   touch workshop-github-copilot-chat/copilot/app.js;
   touch workshop-github-copilot-chat/copilot/bitcoin.py;
   touch workshop-github-copilot-chat/copilot/fibonacci-v1.py;
   touch workshop-github-copilot-chat/copilot/regex.py;
-  code ~/workshop/chat/solution/;
-  code ~/workshop/chat/workshop-github-copilot-chat/;
+  code ~/copilot_chat/solution/;
+  code ~/copilot_chat/workshop-github-copilot-chat/;
 }
 ```
