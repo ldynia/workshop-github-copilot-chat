@@ -26,8 +26,8 @@ gh copilot suggest "remove all files with pyc and pyo extension"
 gh copilot suggest "list free memory in GiB and list file system utilization"
 @terminal "list free memory in GiB and list file system utilization"
 
-gh copilot suggest "make POST request with json body"
-@terminal "make POST request with json body"
+gh copilot suggest "make POST request with JSON body"
+@terminal "make POST request with JSON body"
 
 gh copilot suggest "Rename all folders in the current directory to lower case"
 @terminal Rename all folders in the current directory to lowercase
