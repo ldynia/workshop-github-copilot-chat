@@ -8,6 +8,10 @@ Released in October 2021, GitHub Copilot is an autocompletion tool that helps to
 
 ### Bitcoin
 
+**Objectives:** Get bitcoin price in USD and show engine under the hood.
+
+In Vs Code Open `OUTPUT` tab and select `GitHub Copilot` log.
+
 `python bitcoin.py`
 
 ```python
