@@ -39,8 +39,7 @@ Visit the following URLs: Run locally
 
 - http://localhost:8080/
 
-
-## GitHub Copilot vs GitHub Copilot Chat
+## Fix Project
 
 **Objectives:** Compare GitHub Copilot and GitHub Copilot Chat.
 
@@ -68,7 +67,7 @@ Ctrl + Shift + C
 - `app/tests/test_app.py` file
 - `app/tests` directory
 
-### Refactor `rengine.py` Application
+## Refactor `rengine.py`
 
 **Objectives:** refactor application.
 
@@ -88,7 +87,8 @@ Add pep8 docs string
 # Select all
 Use Python annotations to document methods in selected code.
 ```
-### Refactor `run.py` Application
+
+## Refactor `run.py`
 
 **Objectives:** Refactor application.
 
