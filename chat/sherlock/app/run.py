@@ -37,7 +37,7 @@ def index():
 
 
 @app.route("/livez", methods=["GET"])
-def alive():
+def live():
     return jsonify({"ping": "ok"}), 200
 
 
