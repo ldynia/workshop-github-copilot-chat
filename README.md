@@ -19,7 +19,7 @@ Released in October 2021, GitHub Copilot is an autocompletion tool that helps to
 `node app.js`
 
 ```javascript
-// Inform user every 1 second that he is awesome. Use ES5 syntax. Run the programme 5 times.
+// Inform the user every 1 second that he is awesome. Use ES5 syntax. Run the programme five times.
 ```
 
 ### Regex
@@ -55,14 +55,14 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 `questions.py`
 
 ```python
-# q: What KISS stand for?
-# q: What ACID acronym stands for in programming?
+# q: What does KISS stand for?
+# q: What does the ACID acronym stand for in programming?
 # q: Explain Atomicity in ACID.
 ```
 
 ```python
 # q: Will Donald Trump win the elections?
-# q: Will former president of USA  win the elections in 2024?
+# q: Will the former president of the USA win the elections in 2024?
 ````
 
 <details>
