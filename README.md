@@ -2,7 +2,7 @@
 
 Remember to **DISCONNECT VPN**.
 
-Release in October 2021 GitHub Copilot is a autocompletion tool that helps to write code faster. It translates comments into code and helps with answering questions regarding the code. The tool is available as an extension in major IDEs including Visual Studio Code.
+Released in October 2021, GitHub Copilot is an autocompletion tool that helps to write code faster. It translates comments into code and helps with answering questions regarding the code. The tool is an extension in major IDEs, including Visual Studio Code.
 
 ## Examples
 
