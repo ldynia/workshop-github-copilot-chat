@@ -54,7 +54,7 @@ Secure Dockerfile with nobody and nogroup user
 Explain user and group ID ranges in Linux. Show results as a table.
 
 # Select RUN apk add curl
-Remove application cache an cache dir
+Remove application cache and cache dir
 
 # HEALTHCHECK
 Implement application HEALTHCHECK with default intervals
