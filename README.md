@@ -65,6 +65,7 @@ Ctrl + K Ctrl + O
   touch workshop-github-copilot-chat/copilot/bitcoin.py;
   touch workshop-github-copilot-chat/copilot/fibonacci-v1.py;
   touch workshop-github-copilot-chat/copilot/regex.py;
+  touch workshop-github-copilot-chat/copilot/questions.py;
   code ~/copilot_chat/solution/;
   code ~/copilot_chat/workshop-github-copilot-chat/;
 }
