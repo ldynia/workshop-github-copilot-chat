@@ -2,6 +2,8 @@
 
 Remember to **DISCONNECT VPN**.
 
+[GitHub Copilot Pricing](https://github.com/features/copilot/plans)
+
 ## Agents and Commands
 
 * `@workspace` - Ask about your workspace
