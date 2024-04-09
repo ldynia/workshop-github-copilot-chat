@@ -82,9 +82,9 @@ Propose better variable names
 # Select all
 Refactor this code to a more generic implementation
 
-Add pep8 docs string
+Add pep8 docs string.
 
-Use Python annotations to document methods in this code
+Use Python annotations to document methods in this code.
 
 Comment every line in the recommended method with time complexity. Estimate the total time complexity of the recommended method.
 ```
