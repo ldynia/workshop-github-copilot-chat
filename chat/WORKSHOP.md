@@ -24,9 +24,9 @@ Remember to **DISCONNECT VPN**.
 Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figure out how to work with the project.
 
 ```
-@workspace what is sherlock?
-@workspace how to run sherlock locally?
-@workspace how to run sherlock with docker?
+@workspace What is sherlock?
+@workspace How to run sherlock locally?
+@workspace How to run sherlock with docker?
 ```
 
 Visit the following URLs: Run locally
