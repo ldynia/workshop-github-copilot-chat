@@ -17,12 +17,23 @@ touch \
 
 ## Examples
 
+### Bitcoin
+
+`python bitcoin.py`
+
+```python
+# Get bitcoin price in USD.
+```
+
+### Awesome JavaScript
+
 `node app.js`
 
 ```javascript
-// Inform user every 1 second that he is awesome. Use ES5 syntax.
 // Inform user every 1 second that he is awesome. Use ES5 syntax. Run the programme 5 times.
 ```
+
+### Regex
 
 `python regex.py`
 
@@ -32,11 +43,7 @@ touch \
 
 Translate this to JavaScript!
 
-`python bitcoin.py`
-
-```python
-# Get bitcoin price in USD.
-```
+### Fibonacci
 
 `python fibonacci-v1.py`
 
@@ -54,6 +61,8 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 # Implement Fibonacci sequence for negative numbers.
 ```
 
+## Questions
+
 `questions.py`
 
 ```python
@@ -64,6 +73,7 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 
 ```python
 # q: Will Donald Trump win the elections?
+# q: Will former president of USA  win the elections in 2024?
 ````
 
 <details>
