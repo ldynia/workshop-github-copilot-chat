@@ -1,72 +1,71 @@
-# Workshop Github Copilot Chat
+# Copilot
 
-![github](/docs/assets/github.jpg)
+Remember to **DISCONNECT VPN**.
 
-## Installation Local
+Release in October 2021 GitHub Copilot is a autocompletion tool that helps to write code faster. It translates comments into code and helps with answering questions regarding the code. The tool is available as an extension in major IDEs including Visual Studio Code.
 
-1. GitHub Copilot is not free. It costs [$10](https://github.com/features/copilot/plans#pricing) per month for individuals.
-1. DISCONNECT VPN - GitHub Copilot doesn't work with VPN.
+## Examples
 
-```shell
-git clone https://github.com/ldynia/workshop-github-copilot-chat.git
-code workshop-github-copilot-chat/
+### Bitcoin
 
-# Rebuild Container
-Ctrl + K Ctrl + O
+`python bitcoin.py`
+
+```python
+# Get bitcoin price in USD.
 ```
 
-## Github Copilot X
+### Awesome JavaScript
 
-1. [Copilot](./copilot/WORKSHOP.md)
-1. [Copilot Chat](./chat/WORKSHOP.md)
-1. [Copilot CLI](./cli/WORKSHOP.md)
-1. [~~Copilot Labs~~](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
+`node app.js`
 
-## Copilot Shortcuts Linux
-
-| Shortcut | Description |
-| -------- | ----------- |
-| `tab` | Accept suggestion |
-| `alt+enter` | Show 10 suggestions |
-| `alt+/` | Show suggestions |
-| `alt+[` | Show previous suggestions |
-| `alt+]` | Show next suggestions |
-| `ctrl+alt+i`, `ctrl+shift+c` | Chat |
-| `ctrl+i` | Chat inline |
-| `ctrl+l` | Clear the session |
-| `ctrl+enter` | Insert into code |
-| `ctrl+alt+enter` | Insert into terminal |
-
-## Links
-
-- https://code.visualstudio.com/docs/editor/github-copilot#_chat-view
-- https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
-- https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
-- https://www.youtube.com/watch?v=SZVCJRUADc4
-
-
-## Workshop Setup
-
-```shell
-{
-  rm -rf ~/copilot_chat;
-  mkdir -p ~/copilot_chat/solution/copilot ~/copilot_chat/solution/sherlock ~/copilot_chat/solution/cli;
-  cd ~/copilot_chat/;
-  git clone https://github.com/ldynia/workshop-github-copilot-chat.git;
-  tar -vxf workshop-github-copilot-chat/chat/solution-sherlock.tar.xz --directory solution/sherlock;
-  tar -vxf workshop-github-copilot-chat/copilot/solution-copilot.tar.xz --directory solution/copilot;
-  find ~/copilot_chat/workshop-github-copilot-chat/ -type f -name "*.tar.xz" -exec rm -f {} \;
-  mv ~/copilot_chat/workshop-github-copilot-chat/chat/WORKSHOP.md ~/copilot_chat/solution/sherlock;
-  mv workshop-github-copilot-chat/cli/ ~/copilot_chat/solution/;
-  mv ~/copilot_chat/workshop-github-copilot-chat/copilot/WORKSHOP.md ~/copilot_chat/solution/copilot;
-  rm -rf ~/copilot_chat/workshop-github-copilot-chat/README.md;
-  rm -rf ~/copilot_chat/workshop-github-copilot-chat/docs;
-  touch workshop-github-copilot-chat/copilot/app.js;
-  touch workshop-github-copilot-chat/copilot/bitcoin.py;
-  touch workshop-github-copilot-chat/copilot/fibonacci-v1.py;
-  touch workshop-github-copilot-chat/copilot/regex.py;
-  touch workshop-github-copilot-chat/copilot/questions.py;
-  code ~/copilot_chat/solution/;
-  code ~/copilot_chat/workshop-github-copilot-chat/;
-}
+```javascript
+// Inform user every 1 second that he is awesome. Use ES5 syntax. Run the programme 5 times.
 ```
+
+### Regex
+
+`python regex.py`
+
+```python
+# Create a regex that validates zipcode that follows dd-ddd format where d is a digit
+```
+
+Translate this to JavaScript!
+
+### Fibonacci
+
+`python fibonacci-v1.py`
+
+```python
+# Implement Fibonacci sequence.
+```
+
+`python fibonacci-v2-self.py`
+
+Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgarth.w/the-negative-fibonacci-sequence-f7139f78c2a0) by yourself! **Show solution** (`fibonacci-v2-self.py`).
+
+`python fibonacci-v2-copilot.py`
+
+```python
+# Implement Fibonacci sequence for negative numbers.
+```
+
+## Questions
+
+`questions.py`
+
+```python
+# q: What KISS stand for?
+# q: What ACID acronym stands for in programming?
+# q: Explain Atomicity in ACID.
+```
+
+```python
+# q: Will Donald Trump win the elections?
+# q: Will former president of USA  win the elections in 2024?
+````
+
+<details>
+  <summary>The answare</summary>
+  <img src="../docs/assets/elections.png"></img>
+</details>
