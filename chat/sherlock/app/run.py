@@ -4,6 +4,7 @@ from json.decoder import JSONDecodeError
 
 from flask import Flask
 from flask import jsonify
+from flask import render_template
 from flask import request
 
 from rengine import Sherlock
