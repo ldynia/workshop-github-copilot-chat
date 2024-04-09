@@ -27,8 +27,7 @@ Remember to **DISCONNECT VPN**.
 
 **Objectives:** How to start working with unknown project.
 
-
-Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figure out how to work with the project.
+Go to `cd chat/sherlock` directory and run the application.
 
 ```
 @workspace What is sherlock?
@@ -40,27 +39,70 @@ Visit the following URLs: Run locally
 
 - http://localhost:8080/
 
-Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
+
+## GitHub Copilot vs GitHub Copilot Chat
+
+**Objectives:** Compare GitHub Copilot and GitHub Copilot Chat.
+
+In Vs Code Open `OUTPUT` tab and select `GitHub Copilot Chat` log.
+
+```
+Ctrl + I
+# Add current directory to PYTHONPATH
+
+Ctrl + Shift + C
+# Add current directory to PYTHONPATH
+```
 
 ## How To Write Unit Tests
 
 **Objectives:** Write unit tests for the application.
 
 ```
-# Select index, alive and recommended functions
+# Select index, live and recommended functions
 @workspace /tests Generate unit tests for selected code. Use pytest module.
 ```
 
-**Notes:** Create following files and run `pytest app/` command.
+**Notes:** Create following files and run `pytest app/tests` command.
 - `app/tests/__init__.py` file
 - `app/tests/test_app.py` file
 - `app/tests` directory
 
-## Refactor Docker File
+### Refactor `rengine.py` Application
+
+**Objectives:** refactor application.
+
+```
+# Select all
+Propose better variable names
+
+# Select all
+Refactor this code to a more generic implementation
+
+# Select code in recommend method
+Comment every line in selected code with time complexity. Estimate the total time complexity of the recommended method.
+
+# Select all
+Add pep8 docs string
+
+# Select all
+Use Python annotations to document methods in selected code.
+```
+### Refactor `run.py` Application
+
+**Objectives:** Refactor application.
+
+```
+# Select the whole file
+Does this code violate SOLID principles?
+
+# Select recommended and alive functions
+Refactor
+```
+
+## Refactor `Dockerfile`
 
 **Objectives:** Apply best practices to Dockerfile. Find the difference between GPT gpt-3.5-turbo vs gpt-4
-
-Open [Dockerfile](sherlock/Dockerfile) file.
 
 ```
 # Select FROM instruction `Ctrl + I`
@@ -80,46 +122,6 @@ Remove application cache and cache dir
 
 # HEALTHCHECK
 Implement application HEALTHCHECK with default intervals
-```
-
-### Refactor `rengine.py` Application
-
-**Objectives:** refactor application.
-
-Open [rengine.py](sherlock/app/rengine.py) file.
-
-```
-# Select all
-Propose better variable names
-
-# Select all
-Refactor this code to a more generic implementation
-
-# Select code in recommend method
-Comment every line in selected code with time complexity. Estimate the total time complexity of the recommended method.
-
-# Select all
-Add pep8 docs string
-
-# Select all
-Use Python annotations to document methods in selected code.
-```
-
-### Refactor `run.py` Application
-
-**Objectives:** refactor application.
-
-Open [run.py](sherlock/app/run.py) file.
-
-```
-# Select the whole file
-Does this code violate SOLID principles?
-
-# Select recommended and alive functions
-Refactor
-
-# Select recommended functions
-Implement a decorator to handle errors
 ```
 
 ## Links
