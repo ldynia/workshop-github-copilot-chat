@@ -2,18 +2,7 @@
 
 Remember to **DISCONNECT VPN**.
 
-```shell
-cd copilot
-touch \
-  app.js \
-  bitcoin.py \
-  fibonacci-v1.py \
-  fibonacci-v2-copilot-refactored.py.py \
-  fibonacci-v2-copilot.py.py \
-  fibonacci-v2-self.py.py \
-  questions.py  \
-  regex.py
-```
+Released in October 2021, GitHub Copilot is an autocompletion tool that helps to write code faster. It translates comments into code and helps with answering questions regarding the code. The tool is an extension in major IDEs, including Visual Studio Code.
 
 ## Examples
 
@@ -30,7 +19,7 @@ touch \
 `node app.js`
 
 ```javascript
-// Inform the user every 1 second that he is awesome. Use ES5 syntax. Run the program five times.
+// Inform the user every 1 second that he is awesome. Use ES5 syntax. Run the programme five times.
 ```
 
 ### Regex
@@ -66,7 +55,6 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 `questions.py`
 
 ```python
-# q: What is the difference between a list and an array?
 # q: What does KISS stand for?
 # q: What does the ACID acronym stand for in programming?
 # q: Explain Atomicity in ACID.
