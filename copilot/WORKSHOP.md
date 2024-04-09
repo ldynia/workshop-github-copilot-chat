@@ -66,6 +66,7 @@ Implement [Fibonacci sequence for negative numbers](https://medium.com/@westgart
 `questions.py`
 
 ```python
+# q: What is the difference between a list and an array?
 # q: What does KISS stand for?
 # q: What does the ACID acronym stand for in programming?
 # q: Explain Atomicity in ACID.
