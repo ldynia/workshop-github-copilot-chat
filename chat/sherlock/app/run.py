@@ -41,7 +41,7 @@ def alive():
     return jsonify({"ping": "ok"}), 200
 
 
-@app.route("/api/v1/movies/recommend", methods=["GET"])
+@app.route("/api/v1/recommend/movies", methods=["GET"])
 def recommend():
     MOVIES, errors = read_data(f"{APP_DIR}/db.json")
     if errors:
