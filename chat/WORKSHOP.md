@@ -6,6 +6,8 @@ Remember to **DISCONNECT VPN**.
 
 ## Agents and Commands
 
+**Objectives:** Explain core concepts of GitHub Copilot.
+
 * `@workspace` - Ask about your workspace
 	* `/explain` - Explain how the selected code works
 	* `/tests`- Generate unit tests for the selected code
@@ -19,7 +21,12 @@ Remember to **DISCONNECT VPN**.
 * `/help` - General help about GitHub Copilot.
 * `/clear` - Clear the session.
 
-## sherlock
+# Sherlock
+
+## How To Run The Project
+
+**Objectives:** How to start working with unknown project.
+
 
 Go to `cd chat/sherlock` directory and run the application. **Objectives:** Figure out how to work with the project.
 
@@ -35,12 +42,25 @@ Visit the following URLs: Run locally
 
 Open [run.py](sherlock/app/run.py) file. **Objecives:** create unit test.
 
+## How To Write Unit Tests
+
+**Objectives:** Write unit tests for the application.
+
 ```
-# Select recommended and alive functions
-@workspace /tests only with pytest module.
+# Select index, alive and recommended functions
+@workspace /tests Generate unit tests for selected code. Use pytest module.
 ```
 
-Open [Dockerfile](sherlock/Dockerfile) file. **Objectives:** apply best practices to Dockerfile. Find the difference between GPT gpt-3.5-turbo vs gpt-4
+**Notes:** Create following files and run `pytest app/` command.
+- `app/tests/__init__.py` file
+- `app/tests/test_app.py` file
+- `app/tests` directory
+
+## Refactor Docker File
+
+**Objectives:** Apply best practices to Dockerfile. Find the difference between GPT gpt-3.5-turbo vs gpt-4
+
+Open [Dockerfile](sherlock/Dockerfile) file.
 
 ```
 # Select FROM instruction `Ctrl + I`
@@ -62,7 +82,34 @@ Remove application cache and cache dir
 Implement application HEALTHCHECK with default intervals
 ```
 
-Open [run.py](sherlock/app/run.py) file. **Objectives:** refactor application.
+### Refactor `rengine.py` Application
+
+**Objectives:** refactor application.
+
+Open [rengine.py](sherlock/app/rengine.py) file.
+
+```
+# Select all
+Propose better variable names
+
+# Select all
+Refactor this code to a more generic implementation
+
+# Select code in recommend method
+Comment every line in selected code with time complexity. Estimate the total time complexity of the recommended method.
+
+# Select all
+Add pep8 docs string
+
+# Select all
+Use Python annotations to document methods in selected code.
+```
+
+### Refactor `run.py` Application
+
+**Objectives:** refactor application.
+
+Open [run.py](sherlock/app/run.py) file.
 
 ```
 # Select the whole file
@@ -73,22 +120,6 @@ Refactor
 
 # Select recommended functions
 Implement a decorator to handle errors
-```
-
-Open [rengine.py](sherlock/app/rengine.py) file. **Objectives:** refactor application.
-
-```
-# Select all
-Propose better variable names
-
-# Select all
-Refactor this code to a more generic implementation
-
-Add pep8 docs string.
-
-Use Python annotations to document methods in this code.
-
-Comment every line in the recommended method with time complexity. Estimate the total time complexity of the recommended method.
 ```
 
 ## Links
