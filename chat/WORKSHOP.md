@@ -18,8 +18,8 @@ Remember to **DISCONNECT VPN**.
 	* `/search` - Generate query parameters for workspace search
 	* `/api` - Ask about VS Code extension development
 * `@terminal` - Ask how to do something in the terminal
-* `/help` - General help about GitHub Copilot.
-* `/clear` - Clear the session.
+	* `/help` - General help about GitHub Copilot.
+	* `/clear` - Clear the session.
 
 # Sherlock
 
