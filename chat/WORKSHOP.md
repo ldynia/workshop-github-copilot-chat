@@ -55,7 +55,7 @@ Ctrl + Shift + C
 
 ## How To Write Unit Tests
 
-**Objectives:** Write unit tests for the application.
+**Objectives:** Write unit tests with `/tests` command.
 
 ```
 # Select index, live and recommended functions
@@ -67,9 +67,9 @@ Ctrl + Shift + C
 - `app/tests/test_app.py` file
 - `app/tests` directory
 
-## Refactor `rengine.py`
+## Refactor `rengine.py` And Document
 
-**Objectives:** refactor application.
+**Objectives:** Refactor application, and document with `/doc` command.
 
 ```
 # Select all
