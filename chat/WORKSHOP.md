@@ -25,7 +25,7 @@ Remember to **DISCONNECT VPN**.
 
 ## How To Run The Project
 
-**Objectives:** How to start working with unknown project
+**Objectives:** How to start working with an unknown project
 
 Go to `cd chat/sherlock` directory and run the application.
 
@@ -67,13 +67,26 @@ Ctrl + Shift + C
 - `app/tests/test_app.py` file
 - `app/tests` directory
 
+## Refactor `run.py`
+
+**Objectives:** Refactor application.
+
+```
+# Select the whole file
+Does this code violate SOLID principles?
+Analyze selected code for SRP violation?
+
+# Select recommended functions
+Refactor
+```
+
 ## Refactor `rengine.py` And Document
 
 **Objectives:** Refactor application and document methods with `/doc` command.
 
 ```
 # Select all
-Propose better variable names
+Propose better variable names and class name
 
 # Select all
 Refactor selected code to a more generic implementation
@@ -86,18 +99,6 @@ Add pep8 docs string
 
 # Select all
 Use Python annotations to document methods in selected code.
-```
-
-## Refactor `run.py`
-
-**Objectives:** Refactor application.
-
-```
-# Select the whole file
-Does this code violate SOLID principles?
-
-# Select recommended functions
-Refactor
 ```
 
 ## Refactor `Dockerfile`
@@ -122,6 +123,8 @@ Remove application cache and cache dir
 
 # HEALTHCHECK
 Implement application HEALTHCHECK with default intervals
+
+# Add comments
 ```
 
 ## Links
