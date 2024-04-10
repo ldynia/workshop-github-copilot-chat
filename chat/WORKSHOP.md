@@ -18,8 +18,8 @@ Remember to **DISCONNECT VPN**.
 	* `/search` - Generate query parameters for workspace search
 	* `/api` - Ask about VS Code extension development
 * `@terminal` - Ask how to do something in the terminal
-	* `/help` - General help about GitHub Copilot.
-	* `/clear` - Clear the session.
+  * `/help` - General help about GitHub Copilot.
+  * `/clear` - Clear the session.
 
 # Sherlock
 
@@ -62,7 +62,7 @@ Ctrl + Shift + C
 @workspace /tests Generate unit tests for selected code. Use pytest module.
 ```
 
-**Notes:** Create following files and run `pytest app/tests` command.
+**Notes:** Create following files and run `pytest -vs app/tests` command.
 - `app/tests/__init__.py` file
 - `app/tests/test_app.py` file
 - `app/tests` directory
