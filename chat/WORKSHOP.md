@@ -6,17 +6,17 @@ Remember to **DISCONNECT VPN**.
 
 ## Agents and Commands
 
-**Objectives:** Explain core concepts of GitHub Copilot.
+**Objectives:** Explain the core concepts of GitHub Copilot.
 
 * `@workspace` - Ask about your workspace
-	* `/explain` - Explain how the selected code works
-	* `/tests`- Generate unit tests for the selected code
-	* `/fix`- Propose a fix for the problems in the selected code
-	* `/new`- Scaffold code for a new workspace
-	* `/newNotebook` - Create a new Jupyter Notebook
+  * `/explain` - Explain how the selected code works
+  * `/tests`- Generate unit tests for the selected code
+  * `/fix`- Propose a fix for the problems in the selected code
+  * `/new`- Scaffold code for a new workspace
+  * `/newNotebook` - Create a new Jupyter Notebook
 * `@vscode` - Ask about VS Code
-	* `/search` - Generate query parameters for workspace search
-	* `/api` - Ask about VS Code extension development
+  * `/search` - Generate query parameters for workspace search
+  * `/api` - Ask about VS Code extension development
 * `@terminal` - Ask how to do something in the terminal
   * `/help` - General help about GitHub Copilot.
   * `/clear` - Clear the session.
@@ -25,14 +25,14 @@ Remember to **DISCONNECT VPN**.
 
 ## How To Run The Project
 
-**Objectives:** How to start working with unknown project.
+**Objectives:** How to start working with unknown project
 
 Go to `cd chat/sherlock` directory and run the application.
 
 ```
-@workspace What is sherlock?
-@workspace How to run sherlock locally?
-@workspace How to run sherlock with docker?
+@workspace What is Sherlock?
+@workspace How to run Sherlock locally?
+@workspace How to run Sherlock with docker?
 ```
 
 Visit the following URLs: Run locally
@@ -58,30 +58,30 @@ Ctrl + Shift + C
 **Objectives:** Write unit tests with `/tests` command.
 
 ```
-# Select index, live and recommended functions
+# Select index, live, and recommended functions
 @workspace /tests Generate unit tests for selected code. Use pytest module.
 ```
 
-**Notes:** Create following files and run `pytest -vs app/tests` command.
+**Notes:** Create the following files and run `pytest -vs app/tests` command.
 - `app/tests/__init__.py` file
 - `app/tests/test_app.py` file
 - `app/tests` directory
 
 ## Refactor `rengine.py` And Document
 
-**Objectives:** Refactor application, and document with `/doc` command.
+**Objectives:** Refactor application and document methods with `/doc` command.
 
 ```
 # Select all
 Propose better variable names
 
 # Select all
-Refactor this code to a more generic implementation
+Refactor selected code to a more generic implementation
 
-# Select code in recommend method
-Comment every line in selected code with time complexity. Estimate the total time complexity of the recommended method.
+# Select the code in the recommend method.
+Comment every line in the selected code with time complexity. Estimate the total time complexity of the recommended method.
 
-# Select all
+# Select the method and use /doc command
 Add pep8 docs string
 
 # Select all
@@ -96,7 +96,7 @@ Use Python annotations to document methods in selected code.
 # Select the whole file
 Does this code violate SOLID principles?
 
-# Select recommended and alive functions
+# Select recommended functions
 Refactor
 ```
 
