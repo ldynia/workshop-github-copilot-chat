@@ -1,7 +1,7 @@
 FROM python:3.9.5-alpine
 
 ARG FLASK_DEBUG=False \
-    WORKDIR=/usr/src
+    WORKDIR=/usr/src/app
 
 ENV FLASK_APP=$WORKDIR/run.py \
     FLASK_DEBUG=$FLASK_DEBUG \
