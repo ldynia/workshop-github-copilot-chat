@@ -45,6 +45,7 @@ Ctrl + K Ctrl + O
 - https://www.youtube.com/watch?v=SZVCJRUADc4
 - https://resources.github.com/learn/pathways/?utm_source=learning-pathways&utm_medium=Resources&utm_campaign=copilot-banner
 - https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
+- https://learn.microsoft.com/en-us/legal/cognitive-services/openai/customer-copyright-commitment
 
 ## Workshop Setup
 
