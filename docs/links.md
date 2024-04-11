@@ -19,4 +19,5 @@
 - https://dl.acm.org/doi/pdf/10.1145/3520312.3534864
 - https://arxiv.org/pdf/2302.06590.pdf
 - https://www.youtube.com/watch?v=HcU5vGnywZM
+- https://analyticsindiamag.com/github-copilot-is-all-gain-no-pain-for-microsoft/
 
