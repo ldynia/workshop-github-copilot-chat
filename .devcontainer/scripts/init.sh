@@ -17,9 +17,10 @@ sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
   pcregrep \
   tmux
 
-# This will work in gh's codespeces, not in local!
+# Install gh extension Copilot CLI
+# This will work in GH's codespace but not in the local machine.
+# In the local machine, install manually!
 if [[ -v GITHUB_TOKEN ]]; then
-  # Install gh extention Copilot CLI
   gh extension install github/gh-copilot
   gh extension upgrade gh-copilot
 fi
