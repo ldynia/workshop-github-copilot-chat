@@ -3,6 +3,7 @@
 - https://github.com/features/copilot
 - https://githubnext.com/
 - https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/
+- https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/
 - https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat#limitations-of-github-copilot-chat
 - https://docs.github.com/en/enterprise-cloud@latest/copilot/github-copilot-enterprise/copilot-chat-in-github/using-github-copilot-chat-in-githubcom
 - https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/
@@ -18,3 +19,4 @@
 - https://dl.acm.org/doi/pdf/10.1145/3520312.3534864
 - https://arxiv.org/pdf/2302.06590.pdf
 - https://www.youtube.com/watch?v=HcU5vGnywZM
+
