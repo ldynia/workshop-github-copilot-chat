@@ -43,7 +43,8 @@ Ctrl + K Ctrl + O
 - https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
 - https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
 - https://www.youtube.com/watch?v=SZVCJRUADc4
-
+- https://resources.github.com/learn/pathways/?utm_source=learning-pathways&utm_medium=Resources&utm_campaign=copilot-banner
+- https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
 
 ## Workshop Setup
 
