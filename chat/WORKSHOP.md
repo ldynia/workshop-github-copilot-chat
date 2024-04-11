@@ -32,7 +32,7 @@ Go to `cd chat/sherlock` directory and run the application.
 ```
 @workspace What is Sherlock?
 @workspace How to run Sherlock locally?
-@workspace How to run Sherlock with docker?
+@workspace How to run this project with docker?
 ```
 
 Visit the following URLs: Run locally
@@ -64,8 +64,8 @@ Ctrl + Shift + C
 
 **Notes:** Create the following files and run `pytest -vs app/tests` command.
 - `app/tests/__init__.py` file
-- `app/tests/test_app.py` file
-- `app/tests` directory
+- `app/tests/conftest.py` file
+- `app/tests/test_run.py` file
 
 ## Refactor `run.py`
 
@@ -92,7 +92,7 @@ Propose better variable names and class name
 Refactor selected code to a more generic implementation
 
 # Select the code in the recommend method.
-Comment every line in the selected code with time complexity. Estimate the total time complexity of the recommended method.
+Comment every line in recommend method with time complexity. Estimate the total time complexity of the recommended method.
 
 # Select the method and use /doc command
 Add pep8 docs string
