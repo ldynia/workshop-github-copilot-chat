@@ -72,8 +72,13 @@ Ctrl + Shift + C
 **Objectives:** Refactor application.
 
 ```
-# Select the whole file
+# Select the whole file. Send two prompts.
 Does this code violate SOLID principles?
+What to refactor?
+
+# Select the whole file. Send one prompt.
+Does this code violate SOLID principles? What to refactor?
+
 Analyze selected code for SRP violation?
 
 # Select recommended functions
