@@ -91,7 +91,7 @@ Refactor
 
 ```
 # Select all
-Propose better variable names and class name
+Propose better variables name and class name
 
 # Select all
 Refactor selected code to a more generic implementation
