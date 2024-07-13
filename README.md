@@ -72,3 +72,12 @@ Ctrl + K Ctrl + O
   code ~/copilot_chat/workshop-github-copilot-chat/;
 }
 ```
+## Workshop Setup Codespaces
+
+```shell
+{
+  rm -rf  chat/solution-sherlock.tar.xz;
+  rm -rf  copilot/solution-copilot.tar.xz;
+  rm -rf  docs/;
+}
+```
