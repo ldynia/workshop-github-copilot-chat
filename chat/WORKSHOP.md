@@ -8,6 +8,8 @@ Remember to **DISCONNECT VPN**.
 
 **Objectives:** Explain the core concepts of GitHub Copilot.
 
+An agent is a specialized chat participant that can assist in specific areas.
+
 * `@workspace` - Ask about your workspace
   * `/explain` - Explain how the selected code works
   * `/tests`- Generate unit tests for the selected code
