@@ -47,7 +47,7 @@ Ctrl + K Ctrl + O
 - https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
 - https://learn.microsoft.com/en-us/legal/cognitive-services/openai/customer-copyright-commitment
 
-## Workshop Setup
+## Setup Local
 
 ```shell
 {
@@ -72,7 +72,7 @@ Ctrl + K Ctrl + O
   code ~/copilot_chat/workshop-github-copilot-chat/;
 }
 ```
-## Workshop Setup Codespaces
+## Setup Codespaces
 
 ```shell
 {
