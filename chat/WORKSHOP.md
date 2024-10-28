@@ -2,7 +2,8 @@
 
 Remember to **DISCONNECT VPN**.
 
-[GitHub Copilot Pricing](https://github.com/features/copilot/plans)
+* [GitHub Copilot Pricing](https://github.com/features/copilot/plans)
+* [GitHub Copilot Docs](https://docs.github.com/en/copilot/using-github-copilot)
 
 ## Agents and Commands
 
@@ -22,6 +23,15 @@ An agent is a specialized chat participant that can assist in specific areas.
 * `@terminal` - Ask how to do something in the terminal
   * `/help` - General help about GitHub Copilot.
   * `/clear` - Clear the session.
+
+Chat variables include specific context in your prompt.
+
+* `#file` - Include specific file.
+* `#editor` - Include visible source code.
+* `#selection` - The current selection in the active editor.
+* `#terminalLastCommand` - The active terminal's last run command
+* `#terminalSelection` - The current selection in the terminal.
+* `#codebase` - Searches through the codebase and pulls out relevant information for the query.
 
 # Sherlock
 
