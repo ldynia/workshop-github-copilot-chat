@@ -4,6 +4,7 @@ Remember to **DISCONNECT VPN**.
 
 * [GitHub Copilot Pricing](https://github.com/features/copilot/plans)
 * [GitHub Copilot Docs](https://docs.github.com/en/copilot/using-github-copilot)
+* [GitHub Copilot Prompts](https://docs.github.com/en/copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat)
 
 ## Agents and Commands
 
@@ -55,7 +56,7 @@ Visit the following URLs: Run locally
 
 **Objectives:** Compare GitHub Copilot and GitHub Copilot Chat.
 
-In Vs Code Open `OUTPUT` tab and select `GitHub Copilot Chat` log.
+In VSCode Open `OUTPUT` tab and select `GitHub Copilot Chat` log and open `chat/sherlock/app/__init__.py` file.
 
 ```
 Ctrl + I
@@ -69,12 +70,14 @@ Ctrl + Shift + C
 
 **Objectives:** Write unit tests with `/tests` command.
 
+Open `chat/sherlock/app/run.py` file and select index, live, and recommended functions.
+
 ```
-# Select index, live, and recommended functions
-@workspace /tests Generate unit tests for selected code. Use pytest module.
+#selection Generate unit tests using pytest module
 ```
 
 **Notes:** Create the following files and run `pytest -vs app/tests` command.
+
 - `app/tests/__init__.py` file
 - `app/tests/conftest.py` file
 - `app/tests/test_run.py` file
@@ -83,9 +86,13 @@ Ctrl + Shift + C
 
 **Objectives:** Refactor application.
 
+Open `chat/sherlock/app/run.py` file.
+
 ```
 # Select the whole file. Send two prompts.
 Does this code violate SOLID principles?
+Does this code violate CUPID principles?
+How would you improve this code?
 What to refactor?
 
 # Select the whole file. Send one prompt.
@@ -100,6 +107,8 @@ Refactor
 ## Refactor `rengine.py` And Document
 
 **Objectives:** Refactor application and document methods with `/doc` command.
+
+Open `chat/sherlock/app/rengine.py` file.
 
 ```
 # Select all
@@ -121,6 +130,8 @@ Use Python annotations to document methods in selected code.
 ## Refactor `Dockerfile`
 
 **Objectives:** Apply best practices to Dockerfile. Find the difference between GPT gpt-3.5-turbo vs gpt-4
+
+Open `chat/sherlock/Dockerfile` file.
 
 ```
 # Select FROM instruction `Ctrl + I`
