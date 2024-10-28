@@ -56,7 +56,8 @@ Visit the following URLs: Run locally
 
 **Objectives:** Compare GitHub Copilot and GitHub Copilot Chat.
 
-In VSCode Open `OUTPUT` tab and select `GitHub Copilot Chat` log and open `chat/sherlock/app/__init__.py` file.
+1. In VSCode Open `OUTPUT` tab and select `GitHub Copilot Chat` option.
+2. Open `chat/sherlock/app/__init__.py` file.
 
 ```
 Ctrl + I
