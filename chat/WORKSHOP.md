@@ -10,7 +10,7 @@ Remember to **DISCONNECT VPN**.
 
 **Objectives:** Explain the core concepts of GitHub Copilot.
 
-An agent is a specialized chat participant that can assist in specific areas.
+An agent is a specialized chat participant that can assist in specific areas. See [extensions](https://github.com/marketplace?type=apps&copilot_app=true)
 
 * `@workspace` - Ask about your workspace
   * `/explain` - Explain how the selected code works
@@ -35,6 +35,8 @@ Chat variables include specific context in your prompt.
 * `#codebase` - Searches through the codebase and pulls out relevant information for the query.
 
 [LLMs:](https://github.blog/news-insights/product-news/bringing-developer-choice-to-copilot/)
+
+Explore [models](https://github.com/marketplace/models)
 
 * [Claude 3.5 Sonnet](https://www.anthropic.com/claude/sonnet) - Antropic
 * [GPT 4o](https://openai.com/index/hello-gpt-4o/) - OpenAI
