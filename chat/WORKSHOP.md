@@ -6,7 +6,7 @@ Remember to **DISCONNECT VPN**.
 * [GitHub Copilot Docs](https://docs.github.com/en/copilot/using-github-copilot)
 * [GitHub Copilot Prompts](https://docs.github.com/en/copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat)
 
-## Agents and Commands
+## Agents, Commands and LLMs
 
 **Objectives:** Explain the core concepts of GitHub Copilot.
 
@@ -33,6 +33,13 @@ Chat variables include specific context in your prompt.
 * `#terminalLastCommand` - The active terminal's last run command
 * `#terminalSelection` - The current selection in the terminal.
 * `#codebase` - Searches through the codebase and pulls out relevant information for the query.
+
+[LLMs:](https://github.blog/news-insights/product-news/bringing-developer-choice-to-copilot/)
+
+* [Claude 3.5 Sonnet](https://www.anthropic.com/claude/sonnet) - Antropic
+* [GPT 4o](https://openai.com/index/hello-gpt-4o/) - OpenAI
+* [o1](https://openai.com/o1/) - OpenAI
+* [o1-mini](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/) - OpenAI
 
 # Sherlock
 
