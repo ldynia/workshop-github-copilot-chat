@@ -40,7 +40,8 @@ Chat variables include specific context in your prompt.
 * [GPT 4o](https://openai.com/index/hello-gpt-4o/) - OpenAI
 * [o1](https://openai.com/o1/) - OpenAI
 * [o1-mini](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/) - OpenAI
-
+* [https://deepmind.google/technologies/gemini/pro/](Gemini 1.5 Pro) - Google
+  
 # Sherlock
 
 ## How To Run The Project
