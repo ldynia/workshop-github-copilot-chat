@@ -52,7 +52,7 @@ Explore [models](https://github.com/marketplace/models)
 
 Go to `cd chat/sherlock` directory and run the application.
 
-```
+```text
 @workspace What is Sherlock?
 @workspace How to run Sherlock locally?
 @workspace How to run this project with docker?
@@ -69,7 +69,7 @@ Visit the following URLs: Run locally
 1. In VSCode Open `OUTPUT` tab and select `GitHub Copilot Chat` option.
 2. Open `chat/sherlock/app/__init__.py` file.
 
-```
+```text
 Ctrl + I
 # Add current directory to PYTHONPATH
 
@@ -83,8 +83,8 @@ Ctrl + Shift + C
 
 Open `chat/sherlock/app/run.py` file and select index, live, and recommended functions.
 
-```
-#selection Generate unit tests using pytest module
+```text
+# selection Generate unit tests using pytest module
 ```
 
 **Notes:** Create the following files and run `pytest -vs app/tests` command.
@@ -99,7 +99,7 @@ Open `chat/sherlock/app/run.py` file and select index, live, and recommended fun
 
 Open `chat/sherlock/app/run.py` file.
 
-```
+```text
 # Select the whole file. Send two prompts.
 Does this code violate SOLID principles?
 Does this code violate CUPID principles?
@@ -121,7 +121,7 @@ Refactor
 
 Open `chat/sherlock/app/rengine.py` file.
 
-```
+```text
 # Select all
 Propose better variables name and class name
 
@@ -144,7 +144,7 @@ Use Python annotations to document methods in selected code.
 
 Open `chat/sherlock/Dockerfile` file.
 
-```
+```text
 # Select FROM instruction `Ctrl + I`
 What is the latest Python image that I can use?
 

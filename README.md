@@ -40,16 +40,6 @@ Ctrl + K Ctrl + O
 
 ## Links
 
-### 2024
-- https://code.visualstudio.com/docs/editor/github-copilot#_chat-view
-- https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
-- https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
-- https://www.youtube.com/watch?v=SZVCJRUADc4
-- https://resources.github.com/learn/pathways/?utm_source=learning-pathways&utm_medium=Resources&utm_campaign=copilot-banner
-- https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
-- https://learn.microsoft.com/en-us/legal/cognitive-services/openai/customer-copyright-commitment
-- https://github.com/features/copilot/getting-started
-  
 ### 2025
 
 - https://github.blog/news-insights/product-news/bringing-developer-choice-to-copilot/
@@ -61,6 +51,17 @@ Ctrl + K Ctrl + O
 - TODO: https://github.blog/changelog/2024-10-29-multi-file-editing-code-review-custom-instructions-and-more-for-github-copilot-in-vs-code-october-release-v0-22/
 - TODO: https://githubnext.com/projects/github-spark
 - TODO: https://githubnext.com/projects/learning-sandbox/
+
+### 2024
+
+- https://code.visualstudio.com/docs/editor/github-copilot#_chat-view
+- https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
+- https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
+- https://www.youtube.com/watch?v=SZVCJRUADc4
+- https://resources.github.com/learn/pathways/?utm_source=learning-pathways&utm_medium=Resources&utm_campaign=copilot-banner
+- https://resources.github.com/learn/pathways/copilot/essentials/essentials-of-github-copilot/?utm_campaign=copilot-banner&utm_medium=Resources&utm_source=learning-pathways
+- https://learn.microsoft.com/en-us/legal/cognitive-services/openai/customer-copyright-commitment
+- https://github.com/features/copilot/getting-started
 
 ## Setup Local
 
