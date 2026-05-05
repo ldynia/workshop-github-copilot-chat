@@ -2,10 +2,11 @@
 
 ![github](/docs/assets/github.jpg)
 
-## Installation Local
+> [!WARNING]
+> 1. GitHub Copilot is not free. It costs [$10](https://github.com/features/copilot/plans#pricing) per month for individuals.
+> 1. DISCONNECT VPN - GitHub Copilot often doesn't work with VPN.
 
-1. GitHub Copilot is not free. It costs [$10](https://github.com/features/copilot/plans#pricing) per month for individuals.
-1. DISCONNECT VPN - GitHub Copilot doesn't work with VPN.
+## Installation Local
 
 ```shell
 git clone https://github.com/ldynia/workshop-github-copilot-chat.git

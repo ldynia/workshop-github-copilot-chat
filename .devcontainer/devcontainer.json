@@ -23,7 +23,6 @@
       "extensions": [
         "DavidAnson.vscode-markdownlint",
         "GitHub.copilot-chat",
-        "GitHub.copilot",
         "ms-python.python"
       ]
     }
